@@ -1,0 +1,31 @@
+html {
+    background-image: url("assets/images/backmusic.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgb(189, 228, 179);
+}
+h1 {
+    font-family: 'astron-boy-video';
+    color: white;
+    padding: .3em; 
+    font-size: 4em;
+    background-color: rgba(142, 1, 155, 0.5);
+    text-align: center;
+}
+
+
+
+
+/*@font-face {
+    font-family: 'astron_boyvideo';
+    src: url('astron_boy_video-webfont.woff2') format('woff2'),
+         url('astron_boy_video-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+@font-face {
+    font-family: 'astron-boy-video'; /*a name to be used later*/
+    src: url('../font/astron-boy.video.ttf'); /*URL to font*/
+}
