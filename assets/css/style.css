@@ -87,6 +87,15 @@ img {
     width: auto\9;
 }
 
+.navbar-brand:after {
+    clear: both;
+  }
+
+.navbar-nav {
+    position: absolute;
+    float: right;
+}
+
 a:link,
 a:visited,
 a:hover {
