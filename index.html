@@ -9,14 +9,42 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
-
-    
 </head>
-
 
 <body>
 
     <h1>Music From The 80's Trivia</h1>
+    <!-- Countdown-->
+    <div class="containerCounter" id="containerCounter">
+        <div class= "timeRemain">Time Remaining: 
+            <span id="timeCounter">30</span> seconds</div>
+    </div>
+
+    <!-- Counting Tallies -->
+<div class="containerTally" id="containerTally">
+    <div class="questionCounter" id="questionCounter">Question: </div>
+    <div class="correctTally" id="correctTally">Correct: </div>
+    <div class="incorrectTally" id="incorrectTally"
+         class="unansweredTally" id="unansweredTally">Incorrect: </div>
+</div>
+       
+    <!-- Questions array -->
+    <div class="jumbotron text-center" id="mainArea">
+        <div id="info"></div>
+        <div class="questionBox" id="questionBox">
+            Question 1
+        </div>
+        <div class="choices" id="choices">
+            <ul>
+                <li><button class="choice btn btn01" id="btn0">Choice 1</button></li>
+                <li><button class="choice btn btn02" id="btn1">Choice 2</button></li>
+                <li><button class="choice btn btn03" id="btn2">Choice 3</button></li>
+                <li><button class="choice btn btn04" id="btn3">Choice 4</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="jumbotron choices text-center" id="score"></div>
+ 
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

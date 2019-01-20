@@ -19,3 +19,70 @@ h1 {
     color: white;
 }
 
+.timeRemain, .timeCounter {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'astron-boy-video';
+    color: white;
+    background-color: rgba(142, 1, 155, 0.5);
+    padding: .5em;
+    width: 40%;
+    margin: auto;
+}
+
+.containerCounter {
+    margin-bottom: 2em;
+}
+
+.containerTally {
+    font-size: 1.5em;
+    font-family: 'astron-boy-video';
+    background-color: rgba(142, 1, 155, 0.5);
+    color: white;
+    margin: auto;
+    margin-left: 2em;
+    float: left;
+    width: 10%;
+    padding: 1em;
+    border: .2em dashed;
+}
+
+#mainArea {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'astron-boy-video';
+    background-color: rgba(142, 1, 155, 0.5);
+    color: white;
+    padding: 1em;
+    border: .2em dashed;
+}
+
+ul, 
+li {
+    padding-top: 1em;
+}
+
+.btn {
+    background: rgba(142, 1, 155);
+    width: 100%;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'astron-boy-video';
+    color: white;
+}
+  
+.btn:hover {
+    background: rgba(142, 1, 155);
+    width: 100%;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    width: auto\9;
+}
